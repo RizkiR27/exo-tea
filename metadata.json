@@ -1,0 +1,6 @@
+{
+  "name": "EXO Tea - Minuman Teh Segar Favorit Indonesia",
+  "description": "Website landing page resmi UMKM EXO Tea Indonesia. Menyajikan racikan teh segar berkualitas, fruit tea, dan milk tea gula aren dengan harga terjangkau dan pemesanan praktis via WhatsApp.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,1287 +1,485 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="id">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>EXO Tea | Minuman Teh Segar Favorit Indonesia</title>
-  
-  <!-- SEO & Social Meta Tags -->
-  <meta name="description" content="Nikmati berbagai pilihan teh segar, fruit tea, dan milk tea dari EXO Tea. Dibuat dari bahan pilihan dengan rasa istimewa dan harga bersahabat. Pesan mudah via WhatsApp.">
-  <meta name="keywords" content="EXO Tea, es teh manis, fruit tea indonesia, milk tea gula aren, minuman segar umkm, kuliner teh lokal, franchise teh">
-  <meta name="author" content="EXO Tea Indonesia">
-  <link rel="canonical" href="https://exotea.co.id/">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="EXO Tea menghadirkan teh segar, fruit tea, dan milk tea gula aren yang diracik saat dipesan. Mulai Rp8.000."
+    />
+    <meta name="theme-color" content="#173f2a" />
+    <meta property="og:title" content="EXO Tea | Segarnya Bikin Balik Lagi" />
+    <meta
+      property="og:description"
+      content="Teh lokal dengan rasa total. Temukan rasa favoritmu dan pesan praktis lewat WhatsApp."
+    />
+    <meta
+      property="og:image"
+      content="./assets/images/fruit_tea_lemon_lychee_1791182142092.jpg"
+    />
+    <meta property="og:type" content="website" />
+    <title>EXO Tea | Segarnya Bikin Balik Lagi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script src="./script.js" defer></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#main-content">Lewati ke konten utama</a>
 
-  <!-- Open Graph / Facebook -->
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://exotea.co.id/">
-  <meta property="og:title" content="EXO Tea | Minuman Teh Segar Favorit Indonesia">
-  <meta property="og:description" content="Kesegaran teh lokal dalam setiap tegukan. Teh seduh segar, buah asli, dan gula aren pilihan mulai Rp8.000.">
-  <meta property="og:image" content="./assets/images/hero_tea_showcase_1791182129153.jpg">
-
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="EXO Tea | Minuman Teh Segar Favorit Indonesia">
-  <meta name="twitter:description" content="Nikmati racikan teh segar berkualitas, fruit tea, dan milk tea gula aren dari EXO Tea. Pesan via WhatsApp sekarang!">
-  <meta name="twitter:image" content="./assets/images/hero_tea_showcase_1791182129153.jpg">
-
-  <!-- Favicon SVG -->
-  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='48' fill='%23245C3A'/><path d='M30 65 Q50 80 70 65 L70 42 Q50 32 30 42 Z' fill='%23FFF8E8'/><path d='M50 25 C45 35 35 40 35 48 C35 56 42 62 50 62 C58 62 65 56 65 48 C65 40 55 35 50 25 Z' fill='%234E9F62'/></svg>">
-
-  <!-- Google Fonts: Plus Jakarta Sans & Poppins -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
-
-  <!-- Stylesheet -->
-  <link rel="stylesheet" href="./style.css">
-
-  <!-- Schema.org JSON-LD Structured Data for LocalBusiness -->
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "CafeOrCoffeeShop",
-    "name": "EXO Tea Indonesia",
-    "image": "./assets/images/hero_tea_showcase_1791182129153.jpg",
-    "description": "UMKM Minuman teh lokal Indonesia yang menghadirkan racikan teh segar berkualitas, fruit tea, dan milk tea gula aren dengan harga terjangkau.",
-    "priceRange": "Rp8.000 - Rp16.000",
-    "telephone": "+6281234567890",
-    "servesCuisine": "Indonesian Beverage, Tea, Fruit Tea, Milk Tea",
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "Jl. Contoh UMKM No. 25",
-      "addressLocality": "Jakarta",
-      "addressRegion": "DKI Jakarta",
-      "addressCountry": "ID"
-    },
-    "openingHoursSpecification": [
-      {
-        "@type": "OpeningHoursSpecification",
-        "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"],
-        "opens": "10:00",
-        "closes": "21:00"
-      }
-    ],
-    "sameAs": [
-      "https://instagram.com/exotea.id",
-      "https://tiktok.com/@exotea.id"
-    ]
-  }
-  </script>
-</head>
-<body>
-  <!-- Accessibility Skip Link -->
-  <a href="#main-content" class="skip-link">Loncat ke konten utama</a>
-
-  <!-- 1. PRELOADER -->
-  <div id="preloader" class="preloader" aria-hidden="true">
-    <div class="preloader-content">
-      <div class="preloader-cup">
-        <div class="tea-liquid"></div>
-        <div class="tea-steam"></div>
-      </div>
-      <span class="preloader-text">EXO TEA</span>
-      <span class="preloader-subtext">Menyeduh Kesegaran...</span>
-    </div>
-  </div>
-
-  <!-- 2. NAVBAR -->
-  <header id="header" class="site-header">
-    <div class="container nav-container">
-      <a href="#hero" class="brand-logo" aria-label="EXO Tea - Kembali ke Beranda">
-        <svg class="brand-icon" viewBox="0 0 32 32" width="28" height="28" fill="none" aria-hidden="true">
-          <circle cx="16" cy="16" r="15" fill="#245C3A"/>
-          <path d="M16 6C13.5 11.5 8 13.5 8 19C8 23.4 11.6 27 16 27C20.4 27 24 23.4 24 19C24 13.5 18.5 11.5 16 6Z" fill="#FFF8E8"/>
-          <path d="M16 11C14.5 15 11 16.5 11 20C11 22.8 13.2 25 16 25C18.8 25 21 22.8 21 20C21 16.5 17.5 15 16 11Z" fill="#4E9F62"/>
-        </svg>
-        <span class="brand-name">EXO <span>Tea</span></span>
-      </a>
-
-      <!-- Desktop Navigation Menu -->
-      <nav id="site-nav" class="nav-menu" aria-label="Navigasi Utama">
-        <ul class="nav-list">
-          <li><a href="#hero" class="nav-link active">Beranda</a></li>
-          <li><a href="#tentang" class="nav-link">Tentang</a></li>
-          <li><a href="#menu" class="nav-link">Menu</a></li>
-          <li><a href="#keunggulan" class="nav-link">Keunggulan</a></li>
-          <li><a href="#promo" class="nav-link">Promo</a></li>
-          <li><a href="#testimoni" class="nav-link">Testimoni</a></li>
-          <li><a href="#galeri" class="nav-link">Galeri</a></li>
-          <li><a href="#kontak" class="nav-link">Kontak</a></li>
-        </ul>
-      </nav>
-
-      <!-- Right Header Actions -->
-      <div class="header-actions">
-        <a href="#menu" class="btn btn-primary btn-sm nav-cta-btn">
-          <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <circle cx="9" cy="21" r="1"></circle>
-            <circle cx="20" cy="21" r="1"></circle>
-            <path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"></path>
-          </svg>
-          <span>Pesan Sekarang</span>
+    <header class="site-header" data-header>
+      <div class="container nav-wrap">
+        <a class="brand" href="#beranda" aria-label="EXO Tea, kembali ke beranda">
+          <span class="brand-mark" aria-hidden="true">E</span>
+          <span>EXO <b>Tea</b></span>
         </a>
 
-        <!-- Mobile Hamburger Button -->
-        <button id="hamburger-btn" class="hamburger-btn" aria-label="Buka menu navigasi" aria-expanded="false" aria-controls="site-nav">
-          <span class="bar"></span>
-          <span class="bar"></span>
-          <span class="bar"></span>
-        </button>
-      </div>
-    </div>
-  </header>
-
-  <!-- Mobile Nav Overlay Backdrop -->
-  <div id="nav-backdrop" class="nav-backdrop" aria-hidden="true"></div>
-
-  <!-- MAIN CONTENT -->
-  <main id="main-content">
-    
-    <!-- 3. HERO SECTION -->
-    <section id="hero" class="hero-section">
-      <div class="container hero-container">
-        <div class="hero-text-content">
-          <div class="hero-kicker">
-            <span class="kicker-dot" aria-hidden="true"></span>
-            <span>Teh Lokal Favorit Indonesia</span>
-          </div>
-
-          <h1 class="hero-title">
-            Kesegaran Teh Lokal dalam Setiap Tegukan
-          </h1>
-
-          <p class="hero-description">
-            EXO Tea menghadirkan racikan teh segar dengan bahan pilihan, rasa yang istimewa, dan harga yang bersahabat untuk menemani setiap aktivitasmu.
-          </p>
-
-          <div class="hero-cta-group">
-            <a href="https://wa.me/6281234567890?text=Halo%20EXO%20Tea%2C%20saya%20ingin%20memesan%20minuman%20segar%20hari%20ini." target="_blank" rel="noopener noreferrer" class="btn btn-accent btn-lg">
-              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
-                <path d="M17.472 14.382c-.301-.15-1.78-.878-2.056-.979-.276-.1-.476-.15-.677.15-.2.301-.777.979-.953 1.18-.175.201-.351.226-.652.075s-1.272-.469-2.424-1.496c-.896-.799-1.501-1.786-1.677-2.087-.175-.301-.019-.464.132-.614.136-.135.301-.351.452-.527.15-.175.201-.301.301-.502.1-.201.05-.377-.025-.527-.075-.15-.677-1.631-.928-2.234-.245-.588-.495-.508-.677-.518-.175-.01-.376-.01-.577-.01s-.527.075-.803.377c-.276.301-1.054 1.03-1.054 2.513 0 1.482 1.079 2.914 1.23 3.115.15.201 2.122 3.24 5.141 4.544.718.31 1.279.496 1.716.634.722.23 1.379.197 1.898.12.578-.087 1.78-.727 2.031-1.429.251-.702.251-1.305.176-1.429-.076-.124-.276-.2-.577-.35z"/>
-                <path d="M12 2C6.48 2 2 6.48 2 12c0 1.95.56 3.77 1.53 5.31L2 22l4.82-1.51C8.31 21.46 10.1 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18.2c-1.64 0-3.17-.46-4.48-1.27l-.32-.2-2.86.9.91-2.78-.21-.34C4.16 15.19 3.7 13.65 3.7 12c0-4.58 3.72-8.3 8.3-8.3s8.3 3.72 8.3 8.3-3.72 8.3-8.3 8.3z"/>
-              </svg>
-              <span>Pesan Sekarang</span>
-            </a>
-            <a href="#menu" class="btn btn-outline btn-lg">
-              <span>Lihat Menu</span>
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <line x1="5" y1="12" x2="19" y2="12"></line>
-                <polyline points="12 5 19 12 12 19"></polyline>
-              </svg>
-            </a>
-          </div>
-
-          <div class="hero-badges-strip">
-            <div class="hero-badge-item">
-              <span class="badge-icon">🌿</span>
-              <span>Mulai dari <strong>Rp8.000</strong></span>
-            </div>
-            <div class="hero-badge-separator" aria-hidden="true">·</div>
-            <div class="hero-badge-item">
-              <span class="badge-icon">🧊</span>
-              <span>Dibuat Segar Setiap Hari</span>
-            </div>
-            <div class="hero-badge-separator" aria-hidden="true">·</div>
-            <div class="hero-badge-item">
-              <span class="badge-icon">💬</span>
-              <span>Pesan Cepat via WhatsApp</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="hero-visual-content">
-          <div class="hero-image-card">
-            <div class="hero-blob-bg" aria-hidden="true"></div>
-            <img 
-              src="./assets/images/hero_tea_showcase_1791182129153.jpg" 
-              alt="Racikan teh segar EXO Tea dengan daun teh dan lemon segar"
-              class="hero-img floating-animation"
-              width="600"
-              height="450"
-              fetchpriority="high"
-            >
-            <div class="hero-floating-card top-card">
-              <span class="floating-emoji">🍋</span>
-              <div>
-                <strong>Lemon Tea Favorit</strong>
-                <span class="floating-meta">Perasan Lemon Asli</span>
-              </div>
-            </div>
-            <div class="hero-floating-card bottom-card">
-              <span class="floating-emoji">⭐</span>
-              <div>
-                <strong>Rating 4.9 / 5.0</strong>
-                <span class="floating-meta">1.000+ Pelanggan Puas</span>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      <!-- Scroll Down Cue -->
-      <a href="#statistik" class="scroll-down-cue" aria-label="Gulir ke bagian statistik">
-        <span class="mouse-icon">
-          <span class="mouse-wheel"></span>
-        </span>
-      </a>
-    </section>
-
-    <!-- 4. INFORMASI KEPERCAYAAN / STATISTIK -->
-    <section id="statistik" class="stats-section">
-      <div class="container stats-container">
-        <div class="stat-card">
-          <span class="stat-number" data-target="1000" data-suffix="+">0</span>
-          <span class="stat-label">Gelas Terjual</span>
-          <span class="stat-desc">Diseduh segar untuk pelanggan setia</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-number" data-target="10" data-suffix="+">0</span>
-          <span class="stat-label">Varian Rasa</span>
-          <span class="stat-desc">Dari teh klasik hingga fruit & milk tea</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-number" data-target="4.9" data-decimals="1" data-suffix="★">0</span>
-          <span class="stat-label">Rating Pelanggan</span>
-          <span class="stat-desc">Ulasan positif dari pembeli nyata</span>
-        </div>
-        <div class="stat-card">
-          <span class="stat-number" data-target="100" data-suffix="%">0</span>
-          <span class="stat-label">Dibuat Segar</span>
-          <span class="stat-desc">Diracik saat kamu melakukan pesanan</span>
-        </div>
-      </div>
-    </section>
-
-    <!-- 5. TENTANG EXO TEA -->
-    <section id="tentang" class="section about-section">
-      <div class="container about-container">
-        <div class="about-media-col">
-          <div class="about-image-wrapper">
-            <img 
-              src="./assets/images/tea_brewing_leaves_1791182189628.jpg" 
-              alt="Proses penyeduhan teh daun melati segar EXO Tea"
-              class="about-img"
-              loading="lazy"
-              width="560"
-              height="420"
-            >
-            <div class="about-experience-stamp">
-              <span class="stamp-years">100%</span>
-              <span class="stamp-text">Racikan Lokal Autentik</span>
-            </div>
-          </div>
-        </div>
-
-        <div class="about-text-col">
-          <span class="section-kicker">Tentang Kami</span>
-          <h2 class="section-title">Bukan Sekadar Teh Biasa</h2>
-          <p class="about-lead">
-            EXO Tea adalah UMKM minuman lokal yang menghadirkan berbagai pilihan teh segar dengan rasa modern dan harga terjangkau.
-          </p>
-          <p class="about-body">
-            Setiap minuman diracik menggunakan bahan pilihan agar pelanggan mendapatkan kesegaran terbaik dalam setiap tegukan. Kami percaya bahwa menikmati minuman teh berkualitas tinggi tidak harus mahal, melainkan dapat dinikmati oleh semua kalangan setiap hari.
-          </p>
-
-          <div class="about-pillars">
-            <div class="pillar-item">
-              <div class="pillar-icon-box">
-                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M12 2a10 10 0 0 0-7.07 17.07A10 10 0 0 0 12 22a10 10 0 0 0 7.07-2.93A10 10 0 0 0 12 2z"></path>
-                  <path d="M12 6v6l4 2"></path>
-                </svg>
-              </div>
-              <div class="pillar-content">
-                <h3 class="pillar-title">Bahan Pilihan</h3>
-                <p class="pillar-text">Daun teh melati murni dari perkebunan pilihan nusantara dengan aroma khas.</p>
-              </div>
-            </div>
-
-            <div class="pillar-item">
-              <div class="pillar-icon-box">
-                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M22 12h-4l-3 9L9 3l-3 9H2"></path>
-                </svg>
-              </div>
-              <div class="pillar-content">
-                <h3 class="pillar-title">Diracik Saat Dipesan</h3>
-                <p class="pillar-text">Bukan teh rendaman lama; kami menyeduh dan meracik setiap cup saat pesanan masuk.</p>
-              </div>
-            </div>
-
-            <div class="pillar-item">
-              <div class="pillar-icon-box">
-                <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                  <path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path>
-                </svg>
-              </div>
-              <div class="pillar-content">
-                <h3 class="pillar-title">Rasa yang Selalu Konsisten</h3>
-                <p class="pillar-text">Takaran presisi gula aren, sirup buah asli, dan teh memastikan kenikmatan yang sama.</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="about-action">
-            <a href="#menu" class="btn btn-primary">
-              <span>Kenali Menu Kami</span>
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <polyline points="9 18 15 12 9 6"></polyline>
-              </svg>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 6. MENU PRODUK -->
-    <section id="menu" class="section menu-section">
-      <div class="container">
-        <div class="section-header text-center">
-          <span class="section-kicker">Menu EXO Tea</span>
-          <h2 class="section-title">Temukan Rasa Favoritmu</h2>
-          <p class="section-subtitle">
-            Dari teh klasik sampai perpaduan buah yang menyegarkan, semuanya siap menemani harimu dengan cita rasa terbaik.
-          </p>
-        </div>
-
-        <!-- Category Filters -->
-        <div class="category-filters" role="tablist" aria-label="Filter kategori produk">
-          <button class="filter-tab active" data-category="all" role="tab" aria-selected="true">Semua Menu</button>
-          <button class="filter-tab" data-category="tea-series" role="tab" aria-selected="false">Tea Series</button>
-          <button class="filter-tab" data-category="fruit-tea" role="tab" aria-selected="false">Fruit Tea</button>
-          <button class="filter-tab" data-category="milk-tea" role="tab" aria-selected="false">Milk Tea</button>
-          <button class="filter-tab" data-category="best-seller" role="tab" aria-selected="false">Best Seller ⭐</button>
-        </div>
-
-        <!-- Products Grid (Rendered dynamically by JavaScript) -->
-        <div id="products-grid" class="products-grid" aria-live="polite">
-          <!-- Populated by script.js -->
-        </div>
-      </div>
-    </section>
-
-    <!-- 7. MODAL DETAIL PRODUK (Accessible Dialog) -->
-    <div id="product-modal" class="modal-overlay" aria-hidden="true" role="dialog" aria-modal="true" aria-labelledby="modal-product-title">
-      <div class="modal-card">
-        <button id="modal-close-btn" class="modal-close-btn" aria-label="Tutup jendela detail produk">
-          <svg viewBox="0 0 24 24" width="22" height="22" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-            <line x1="18" y1="6" x2="6" y2="18"></line>
-            <line x1="6" y1="6" x2="18" y2="18"></line>
-          </svg>
+        <button
+          class="menu-toggle"
+          type="button"
+          aria-label="Buka menu navigasi"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          data-menu-toggle
+        >
+          <span></span><span></span>
         </button>
 
-        <div class="modal-body">
-          <div class="modal-media">
-            <img id="modal-product-image" src="./assets/images/hero_tea_showcase_1791182129153.jpg" alt="" class="modal-img">
-            <div id="modal-badge-container"></div>
-          </div>
-
-          <div class="modal-info">
-            <span id="modal-category" class="modal-category-text">Fruit Tea</span>
-            <h3 id="modal-product-title" class="modal-title">Lemon Tea</h3>
-            <div class="modal-rating">
-              <span class="stars">★★★★★</span>
-              <span id="modal-rating-score" class="rating-score">4.9 / 5.0</span>
-            </div>
-            <p id="modal-description" class="modal-desc">Perasan lemon asli segar dipadukan dengan racikan teh hitam pilihan.</p>
-
-            <form id="product-order-form" class="modal-options-form" onsubmit="return false;">
-              <!-- Size Options -->
-              <fieldset class="form-fieldset">
-                <legend class="fieldset-legend">Pilih Ukuran</legend>
-                <div class="custom-radio-group">
-                  <label class="custom-radio-option">
-                    <input type="radio" name="product-size" value="regular" checked>
-                    <span class="radio-box">
-                      <span class="radio-label">Reguler (16 oz)</span>
-                      <span id="modal-price-regular" class="radio-price">Rp10.000</span>
-                    </span>
-                  </label>
-                  <label class="custom-radio-option">
-                    <input type="radio" name="product-size" value="large">
-                    <span class="radio-box">
-                      <span class="radio-label">Besar (22 oz)</span>
-                      <span id="modal-price-large" class="radio-price">Rp13.000</span>
-                    </span>
-                  </label>
-                </div>
-              </fieldset>
-
-              <!-- Sugar Level Options -->
-              <fieldset class="form-fieldset">
-                <legend class="fieldset-legend">Tingkat Gula</legend>
-                <div class="option-chips-group">
-                  <label class="chip-option">
-                    <input type="radio" name="sugar-level" value="Tanpa Gula (0%)">
-                    <span class="chip-label">Tanpa Gula</span>
-                  </label>
-                  <label class="chip-option">
-                    <input type="radio" name="sugar-level" value="25 Persen">
-                    <span class="chip-label">25%</span>
-                  </label>
-                  <label class="chip-option">
-                    <input type="radio" name="sugar-level" value="50 Persen">
-                    <span class="chip-label">50%</span>
-                  </label>
-                  <label class="chip-option">
-                    <input type="radio" name="sugar-level" value="75 Persen">
-                    <span class="chip-label">75%</span>
-                  </label>
-                  <label class="chip-option">
-                    <input type="radio" name="sugar-level" value="Gula Normal (100%)" checked>
-                    <span class="chip-label">Normal</span>
-                  </label>
-                </div>
-              </fieldset>
-
-              <!-- Ice Level Options -->
-              <fieldset class="form-fieldset">
-                <legend class="fieldset-legend">Pilihan Es</legend>
-                <div class="option-chips-group">
-                  <label class="chip-option">
-                    <input type="radio" name="ice-level" value="Tanpa Es">
-                    <span class="chip-label">Tanpa Es</span>
-                  </label>
-                  <label class="chip-option">
-                    <input type="radio" name="ice-level" value="Sedikit Es (Less Ice)">
-                    <span class="chip-label">Sedikit Es</span>
-                  </label>
-                  <label class="chip-option">
-                    <input type="radio" name="ice-level" value="Es Normal" checked>
-                    <span class="chip-label">Es Normal</span>
-                  </label>
-                  <label class="chip-option">
-                    <input type="radio" name="ice-level" value="Extra Es">
-                    <span class="chip-label">Extra Es</span>
-                  </label>
-                </div>
-              </fieldset>
-
-              <!-- Quantity Stepper -->
-              <div class="form-fieldset quantity-notes-row">
-                <div>
-                  <label for="order-quantity" class="fieldset-legend">Jumlah Gelas</label>
-                  <div class="stepper-wrapper">
-                    <button type="button" id="qty-decrease" class="stepper-btn" aria-label="Kurangi jumlah">−</button>
-                    <input type="number" id="order-quantity" name="order-quantity" min="1" max="50" value="1" readonly class="stepper-input">
-                    <button type="button" id="qty-increase" class="stepper-btn" aria-label="Tambah jumlah">+</button>
-                  </div>
-                </div>
-
-                <div class="customer-note-wrapper">
-                  <label for="order-notes" class="fieldset-legend">Catatan Khusus (Opsional)</label>
-                  <input type="text" id="order-notes" placeholder="Contoh: jangan terlalu dingin, kantong terpisah" class="input-text-field">
-                </div>
-              </div>
-
-              <!-- Price & WhatsApp Action -->
-              <div class="modal-footer-action">
-                <div class="total-calc-box">
-                  <span class="total-label">Estimasi Total:</span>
-                  <span id="modal-total-price" class="total-amount">Rp10.000</span>
-                </div>
-                <button type="button" id="modal-submit-wa" class="btn btn-accent btn-full">
-                  <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
-                    <path d="M17.472 14.382c-.301-.15-1.78-.878-2.056-.979-.276-.1-.476-.15-.677.15-.2.301-.777.979-.953 1.18-.175.201-.351.226-.652.075s-1.272-.469-2.424-1.496c-.896-.799-1.501-1.786-1.677-2.087-.175-.301-.019-.464.132-.614.136-.135.301-.351.452-.527.15-.175.201-.301.301-.502.1-.201.05-.377-.025-.527-.075-.15-.677-1.631-.928-2.234-.245-.588-.495-.508-.677-.518-.175-.01-.376-.01-.577-.01s-.527.075-.803.377c-.276.301-1.054 1.03-1.054 2.513 0 1.482 1.079 2.914 1.23 3.115.15.201 2.122 3.24 5.141 4.544.718.31 1.279.496 1.716.634.722.23 1.379.197 1.898.12.578-.087 1.78-.727 2.031-1.429.251-.702.251-1.305.176-1.429-.076-.124-.276-.2-.577-.35z"/>
-                    <path d="M12 2C6.48 2 2 6.48 2 12c0 1.95.56 3.77 1.53 5.31L2 22l4.82-1.51C8.31 21.46 10.1 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18.2c-1.64 0-3.17-.46-4.48-1.27l-.32-.2-2.86.9.91-2.78-.21-.34C4.16 15.19 3.7 13.65 3.7 12c0-4.58 3.72-8.3 8.3-8.3s8.3 3.72 8.3 8.3-3.72 8.3-8.3 8.3z"/>
-                  </svg>
-                  <span>Pesan via WhatsApp</span>
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- 8. KEUNGGULAN -->
-    <section id="keunggulan" class="section advantages-section">
-      <div class="container">
-        <div class="section-header text-center">
-          <span class="section-kicker">Mengapa EXO Tea</span>
-          <h2 class="section-title">Keunggulan Racikan Kami</h2>
-          <p class="section-subtitle">
-            Kami menjaga komitmen mutu dan rasa agar setiap pelanggan menikmati kualitas terbaik dengan harga yang bersahabat.
-          </p>
-        </div>
-
-        <div class="advantages-grid">
-          <div class="advantage-card">
-            <div class="advantage-icon">
-              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
-                <path d="M2 17l10 5 10-5"></path>
-                <path d="M2 12l10 5 10-5"></path>
-              </svg>
-            </div>
-            <h3 class="advantage-title">Bahan Berkualitas</h3>
-            <p class="advantage-text">Hanya menggunakan daun teh murni, buah segar asli, dan gula aren pilihan tanpa pemanis buatan keras.</p>
-          </div>
-
-          <div class="advantage-card">
-            <div class="advantage-icon">
-              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <path d="M12 2v4M12 18v4M4.93 4.93l2.83 2.83M16.24 16.24l2.83 2.83M2 12h4M18 12h4M4.93 19.07l2.83-2.83M16.24 7.76l2.83-2.83"></path>
-              </svg>
-            </div>
-            <h3 class="advantage-title">Selalu Dibuat Segar</h3>
-            <p class="advantage-text">Setiap pesanan diracik langsung setelah kamu memesan, menjamin aroma teh tetap kuat dan segar.</p>
-          </div>
-
-          <div class="advantage-card">
-            <div class="advantage-icon">
-              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <circle cx="12" cy="12" r="10"></circle>
-                <path d="M16 8h-6a2 2 0 1 0 0 4h4a2 2 0 1 1 0 4H8"></path>
-                <line x1="12" y1="6" x2="12" y2="8"></line>
-                <line x1="12" y1="16" x2="12" y2="18"></line>
-              </svg>
-            </div>
-            <h3 class="advantage-title">Harga Bersahabat</h3>
-            <p class="advantage-text">Mulai dari Rp8.000, ramah di kantong pelajar, mahasiswa, pekerja, hingga keluarga tercinta.</p>
-          </div>
-
-          <div class="advantage-card">
-            <div class="advantage-icon">
-              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path>
-                <polyline points="14 2 14 8 20 8"></polyline>
-                <line x1="16" y1="13" x2="8" y2="13"></line>
-                <line x1="16" y1="17" x2="8" y2="17"></line>
-                <polyline points="10 9 9 9 8 9"></polyline>
-              </svg>
-            </div>
-            <h3 class="advantage-title">Banyak Pilihan Rasa</h3>
-            <p class="advantage-text">Dari teh melati tradisional, varian buah tropis asam-manis, hingga milk tea creamy kaya rasa.</p>
-          </div>
-
-          <div class="advantage-card">
-            <div class="advantage-icon">
-              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
-              </svg>
-            </div>
-            <h3 class="advantage-title">Mudah Dipesan</h3>
-            <p class="advantage-text">Cukup pilih rasa yang kamu suka, klik pesan via WhatsApp, dan pesananmu segera disiapkan.</p>
-          </div>
-
-          <div class="advantage-card">
-            <div class="advantage-icon">
-              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <circle cx="12" cy="12" r="10"></circle>
-                <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
-                <line x1="9" y1="9" x2="9.01" y2="9"></line>
-                <line x1="15" y1="9" x2="15.01" y2="9"></line>
-              </svg>
-            </div>
-            <h3 class="advantage-title">Cocok untuk Berbagai Momen</h3>
-            <p class="advantage-text">Menemani waktu belajar, istirahat kerja, santai bersama teman, ataupun arisan dan acara kantor.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 9. PROMO UTAMA DENGAN COUNTDOWN -->
-    <section id="promo" class="promo-section">
-      <div class="container promo-container">
-        <div class="promo-card-wrapper">
-          <div class="promo-badge-tag">Promo Terbatas Pekan Ini</div>
-          <h2 class="promo-title">Beli 2 Gratis 1 untuk Varian Pilihan</h2>
-          <p class="promo-desc">
-            Nikmati promo spesial beli 2 cup varian Fruit Tea atau Milk Tea, dapatkan 1 cup Original Tea Reguler gratis. Penawaran berlaku selama persediaan masih ada!
-          </p>
-
-          <!-- Interactive Countdown -->
-          <div class="countdown-wrapper" aria-label="Waktu promo tersisa">
-            <div class="countdown-item">
-              <span id="countdown-days" class="countdown-number">03</span>
-              <span class="countdown-label">Hari</span>
-            </div>
-            <span class="countdown-separator">:</span>
-            <div class="countdown-item">
-              <span id="countdown-hours" class="countdown-number">14</span>
-              <span class="countdown-label">Jam</span>
-            </div>
-            <span class="countdown-separator">:</span>
-            <div class="countdown-item">
-              <span id="countdown-minutes" class="countdown-number">28</span>
-              <span class="countdown-label">Menit</span>
-            </div>
-            <span class="countdown-separator">:</span>
-            <div class="countdown-item">
-              <span id="countdown-seconds" class="countdown-number">45</span>
-              <span class="countdown-label">Detik</span>
-            </div>
-          </div>
-
-          <div class="promo-terms">
-            <span>*Syarat & Ketentuan: Berlaku untuk pembelian langsung atau pesan WhatsApp. Berlaku s.d. batas waktu di atas.</span>
-          </div>
-
-          <div class="promo-action">
-            <a href="https://wa.me/6281234567890?text=Halo%20EXO%20Tea%2C%20saya%20ingin%20mengambil%20promo%20Beli%202%20Gratis%201.%20Apakah%20promonya%20masih%20tersedia%3F" target="_blank" rel="noopener noreferrer" class="btn btn-accent btn-lg">
-              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
-                <path d="M12 2C6.48 2 2 6.48 2 12c0 1.95.56 3.77 1.53 5.31L2 22l4.82-1.51C8.31 21.46 10.1 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18.2c-1.64 0-3.17-.46-4.48-1.27l-.32-.2-2.86.9.91-2.78-.21-.34C4.16 15.19 3.7 13.65 3.7 12c0-4.58 3.72-8.3 8.3-8.3s8.3 3.72 8.3 8.3-3.72 8.3-8.3 8.3z"/>
-              </svg>
-              <span>Ambil Promo via WhatsApp</span>
-            </a>
-          </div>
-        </div>
-
-        <div class="promo-visual-side">
-          <img 
-            src="./assets/images/fruit_tea_lemon_lychee_1791182142092.jpg" 
-            alt="Promo minuman segar EXO Tea Lemon Tea dan Lychee Tea"
-            class="promo-img"
-            loading="lazy"
-            width="500"
-            height="375"
+        <nav class="site-nav" id="site-nav" aria-label="Navigasi utama" data-nav>
+          <a href="#beranda">Beranda</a>
+          <a href="#menu">Menu</a>
+          <a href="#cerita">Cerita Kami</a>
+          <a href="#ulasan">Ulasan</a>
+          <a href="#lokasi">Lokasi</a>
+          <a
+            class="button button-small nav-cta"
+            href="https://wa.me/6281234567890?text=Halo%20EXO%20Tea%2C%20saya%20ingin%20memesan."
+            target="_blank"
+            rel="noopener"
+            >Pesan sekarang</a
           >
-        </div>
+        </nav>
       </div>
-    </section>
+    </header>
 
-    <!-- 10. CARA PEMESANAN -->
-    <section class="section steps-section">
-      <div class="container">
-        <div class="section-header text-center">
-          <span class="section-kicker">Alur Pemesanan</span>
-          <h2 class="section-title">Pesan Mudah dalam 4 Langkah</h2>
-          <p class="section-subtitle">
-            Tanpa aplikasi tambahan yang membingungkan, pesan langsung ke barista kami via WhatsApp.
-          </p>
-        </div>
-
-        <div class="steps-grid">
-          <div class="step-card">
-            <span class="step-badge">1</span>
-            <div class="step-icon">
-              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path>
-                <path d="M7 2v20"></path>
-                <path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3zm0 0v7"></path>
-              </svg>
+    <main id="main-content">
+      <section class="hero" id="beranda">
+        <div class="hero-orb hero-orb-one" aria-hidden="true"></div>
+        <div class="hero-orb hero-orb-two" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy reveal">
+            <p class="eyebrow">Teh lokal, rasa total</p>
+            <h1>
+              Segarnya bikin
+              <em>balik lagi.</em>
+            </h1>
+            <p class="hero-lead">
+              Teh pilihan, buah segar, susu creamy, dan gula aren favorit.
+              Diracik saat kamu pesan, mulai dari Rp8.000.
+            </p>
+            <div class="hero-actions">
+              <a
+                class="button"
+                href="https://wa.me/6281234567890?text=Halo%20EXO%20Tea%2C%20saya%20ingin%20melihat%20menu%20dan%20memesan."
+                target="_blank"
+                rel="noopener"
+                >Pesan via WhatsApp <span aria-hidden="true">↗</span></a
+              >
+              <a class="text-link" href="#menu"
+                >Lihat menu <span aria-hidden="true">↓</span></a
+              >
             </div>
-            <h3 class="step-title">Pilih Minuman</h3>
-            <p class="step-desc">Lihat katalog menu dan pilih varian teh, fruit tea, atau milk tea yang ingin kamu nikmati.</p>
+            <ul class="hero-points" aria-label="Keunggulan singkat">
+              <li><b>Mulai</b> Rp8.000</li>
+              <li><b>Fresh</b> saat dipesan</li>
+              <li><b>Praktis</b> via WhatsApp</li>
+            </ul>
           </div>
 
-          <div class="step-card">
-            <span class="step-badge">2</span>
-            <div class="step-icon">
-              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <circle cx="12" cy="12" r="3"></circle>
-                <path d="M19.4 15a1.65 1.65 0 0 0 .33 1.82l.06.06a2 2 0 0 1 0 2.83 2 2 0 0 1-2.83 0l-.06-.06a1.65 1.65 0 0 0-1.82-.33 1.65 1.65 0 0 0-1 1.51V21a2 2 0 0 1-2 2 2 2 0 0 1-2-2v-.09A1.65 1.65 0 0 0 9 19.4a1.65 1.65 0 0 0-1.82.33l-.06.06a2 2 0 0 1-2.83 0 2 2 0 0 1 0-2.83l.06-.06a1.65 1.65 0 0 0 .33-1.82 1.65 1.65 0 0 0-1.51-1H3a2 2 0 0 1-2-2 2 2 0 0 1 2-2h.09A1.65 1.65 0 0 0 4.6 9a1.65 1.65 0 0 0-.33-1.82l-.06-.06a2 2 0 0 1 0-2.83 2 2 0 0 1 2.83 0l.06.06a1.65 1.65 0 0 0 1.82.33H9a1.65 1.65 0 0 0 1-1.51V3a2 2 0 0 1 2-2 2 2 0 0 1 2 2v.09a1.65 1.65 0 0 0 1 1.51 1.65 1.65 0 0 0 1.82-.33l.06-.06a2 2 0 0 1 2.83 0 2 2 0 0 1 0 2.83l-.06.06a1.65 1.65 0 0 0-.33 1.82V9a1.65 1.65 0 0 0 1.51 1H21a2 2 0 0 1 2 2 2 2 0 0 1-2 2h-.09a1.65 1.65 0 0 0-1.51 1z"></path>
-              </svg>
+          <div class="hero-visual reveal" aria-label="Produk unggulan EXO Tea">
+            <div class="hero-image-frame">
+              <img
+                src="./assets/images/fruit_tea_lemon_lychee_1791182142092.jpg"
+                alt="Pilihan minuman teh segar EXO Tea dengan buah dan es"
+                width="900"
+                height="1100"
+                fetchpriority="high"
+              />
             </div>
-            <h3 class="step-title">Atur Pesanan</h3>
-            <p class="step-desc">Sesuaikan ukuran cup, tingkat kemanisan (sugar level), jumlah es batu, dan jumlah porsi pesanan.</p>
-          </div>
-
-          <div class="step-card">
-            <span class="step-badge">3</span>
-            <div class="step-icon">
-              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <path d="M22 2L11 13"></path>
-                <path d="M22 2l-7 20-4-9-9-4 20-7z"></path>
-              </svg>
+            <div class="floating-note note-top">
+              <span class="note-icon" aria-hidden="true">✦</span>
+              <span><b>Best seller</b> Fruit Tea Series</span>
             </div>
-            <h3 class="step-title">Kirim ke WhatsApp</h3>
-            <p class="step-desc">Klik tombol pesan; sistem kami otomatis menyusun teks pesanan rapi untuk dikirim ke barista.</p>
-          </div>
-
-          <div class="step-card">
-            <span class="step-badge">4</span>
-            <div class="step-icon">
-              <svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <path d="M12 8v4l3 3"></path>
-                <circle cx="12" cy="12" r="10"></circle>
-              </svg>
+            <div class="floating-note note-bottom">
+              <span class="rating">4.9</span>
+              <span>★★★★★<small>Disukai pelanggan</small></span>
             </div>
-            <h3 class="step-title">Tunggu Pesananmu</h3>
-            <p class="step-desc">Pesananmu diracik segar dan siap diambil di outlet atau dikirim langsung ke alamatmu.</p>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <!-- 11. TESTIMONI PELANGGAN (Interactive Carousel) -->
-    <section id="testimoni" class="section testimonials-section">
-      <div class="container">
-        <div class="section-header text-center">
-          <span class="section-kicker">Kata Mereka</span>
-          <h2 class="section-title">Apa Kata Pelanggan EXO Tea?</h2>
-          <p class="section-subtitle">
-            Kepuasan pelanggan adalah motivasi kami untuk selalu menjaga kesegaran dan cita rasa terbaik di setiap cangkir.
-          </p>
+      <section class="proof" aria-label="Pencapaian EXO Tea">
+        <div class="container proof-grid">
+          <div><strong data-count="1000">1.000+</strong><span>Gelas terjual</span></div>
+          <div><strong>4.9/5</strong><span>Rating pelanggan</span></div>
+          <div><strong>10+</strong><span>Varian rasa</span></div>
+          <div><strong>Setiap hari</strong><span>Diracik segar</span></div>
         </div>
+      </section>
 
-        <div class="carousel-container" aria-roledescription="carousel" aria-label="Ulasan Pelanggan">
-          <div id="testimonial-track" class="carousel-track">
-            <!-- Testimonial 1 -->
-            <div class="testimonial-slide active" role="group" aria-roledescription="slide" aria-label="1 dari 5">
-              <div class="testimonial-card">
-                <div class="testimonial-stars">★★★★★</div>
-                <blockquote class="testimonial-quote">
-                  "Lemon Tea nya segar banget dan rasa manisnya pas! Cocok banget diminum siang-siang waktu lagi panas terik di kantor. Harganya juga ramah banget di kantong."
-                </blockquote>
-                <div class="testimonial-author">
-                  <div class="author-avatar" aria-hidden="true">AS</div>
-                  <div class="author-details">
-                    <strong class="author-name">Anisa Safitri</strong>
-                    <span class="author-location">Pekerja Kantor · Jakarta Selatan</span>
-                    <span class="author-product">Memesan: <em>Lemon Tea (Large, Normal Ice)</em></span>
-                  </div>
+      <section class="section menu-section" id="menu">
+        <div class="container">
+          <div class="section-heading reveal">
+            <div>
+              <p class="eyebrow">Menu favorit</p>
+              <h2>Satu tegukan,<br /><em>mood langsung naik.</em></h2>
+            </div>
+            <p>
+              Tiga karakter rasa untuk setiap suasana. Pilih yang segar, creamy,
+              atau klasik.
+            </p>
+          </div>
+
+          <div class="menu-showcase">
+            <article class="product-card product-fruit reveal">
+              <div class="product-image">
+                <img
+                  src="./assets/images/fruit_tea_lemon_lychee_1791182142092.jpg"
+                  alt="Lemon dan lychee fruit tea EXO Tea"
+                  width="800"
+                  height="760"
+                  loading="lazy"
+                />
+                <span class="product-badge">Paling segar</span>
+              </div>
+              <div class="product-content">
+                <span class="product-kicker">Fruit Tea Series</span>
+                <h3>Lemon Lychee Tea</h3>
+                <p>Asam segar lemon bertemu manis lembut leci.</p>
+                <div class="product-bottom">
+                  <span>Mulai <b>Rp10.000</b></span>
+                  <button
+                    class="circle-button"
+                    type="button"
+                    aria-label="Pesan Lemon Lychee Tea"
+                    data-order="Lemon Lychee Tea"
+                    data-price="10000"
+                  >
+                    ↗
+                  </button>
                 </div>
               </div>
-            </div>
+            </article>
 
-            <!-- Testimonial 2 -->
-            <div class="testimonial-slide" role="group" aria-roledescription="slide" aria-label="2 dari 5">
-              <div class="testimonial-card">
-                <div class="testimonial-stars">★★★★★</div>
-                <blockquote class="testimonial-quote">
-                  "Milk Tea Gula Aren jadi langganan tetap saya tiap sore. Rasanya creamy banget tapi nggak bikin enek, gula arennya wangi asli bukan pemanis kimia."
-                </blockquote>
-                <div class="testimonial-author">
-                  <div class="author-avatar" aria-hidden="true">BP</div>
-                  <div class="author-details">
-                    <strong class="author-name">Budi Pratama</strong>
-                    <span class="author-location">Mahasiswa · Jakarta Barat</span>
-                    <span class="author-product">Memesan: <em>Milk Tea Gula Aren (Sugar 50%)</em></span>
-                  </div>
+            <article class="product-card product-milk reveal">
+              <div class="product-image">
+                <img
+                  src="./assets/images/milk_tea_gula_aren_1791182158332.jpg"
+                  alt="Milk Tea Gula Aren EXO Tea"
+                  width="800"
+                  height="760"
+                  loading="lazy"
+                />
+                <span class="product-badge">Best seller</span>
+              </div>
+              <div class="product-content">
+                <span class="product-kicker">Creamy Series</span>
+                <h3>Milk Tea Gula Aren</h3>
+                <p>Teh harum, susu creamy, dan karamel gula aren.</p>
+                <div class="product-bottom">
+                  <span>Mulai <b>Rp13.000</b></span>
+                  <button
+                    class="circle-button"
+                    type="button"
+                    aria-label="Pesan Milk Tea Gula Aren"
+                    data-order="Milk Tea Gula Aren"
+                    data-price="13000"
+                  >
+                    ↗
+                  </button>
                 </div>
               </div>
-            </div>
+            </article>
 
-            <!-- Testimonial 3 -->
-            <div class="testimonial-slide" role="group" aria-roledescription="slide" aria-label="3 dari 5">
-              <div class="testimonial-card">
-                <div class="testimonial-stars">★★★★★</div>
-                <blockquote class="testimonial-quote">
-                  "Pesan lewat WhatsApp cepat banget diresponnya dan baristanya ramah. Pernah pesan 30 cup buat acara syukuran di rumah, semua tamu suka sama Lychee Tea nya!"
-                </blockquote>
-                <div class="testimonial-author">
-                  <div class="author-avatar" aria-hidden="true">DR</div>
-                  <div class="author-details">
-                    <strong class="author-name">Dina Rahmawati</strong>
-                    <span class="author-location">Ibu Rumah Tangga · Bekasi</span>
-                    <span class="author-product">Memesan: <em>Lychee Tea & Original Tea</em></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Testimonial 4 -->
-            <div class="testimonial-slide" role="group" aria-roledescription="slide" aria-label="4 dari 5">
-              <div class="testimonial-card">
-                <div class="testimonial-stars">★★★★★</div>
-                <blockquote class="testimonial-quote">
-                  "Sebagai pecinta teh melati, Original Tea EXO Tea ini wanginya beneran nendang. Seduhan teh aslinya kerasa, bukan bubuk sachet murahan. Mantap banget!"
-                </blockquote>
-                <div class="testimonial-author">
-                  <div class="author-avatar" aria-hidden="true">RF</div>
-                  <div class="author-details">
-                    <strong class="author-name">Rizki Fauzan</strong>
-                    <span class="author-location">Desainer Grafis · Tangerang</span>
-                    <span class="author-product">Memesan: <em>Original Tea Melati</em></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <!-- Testimonial 5 -->
-            <div class="testimonial-slide" role="group" aria-roledescription="slide" aria-label="5 dari 5">
-              <div class="testimonial-card">
-                <div class="testimonial-stars">★★★★★</div>
-                <blockquote class="testimonial-quote">
-                  "Mango Tea dan Peach Tea nya juara! Rasa buahnya berasa manis alami dan ada aroma segar yang bikin mood langsung naik pas ngerjain tugas kuliah."
-                </blockquote>
-                <div class="testimonial-author">
-                  <div class="author-avatar" aria-hidden="true">CL</div>
-                  <div class="author-details">
-                    <strong class="author-name">Clara Lestari</strong>
-                    <span class="author-location">Pelajar · Depok</span>
-                    <span class="author-product">Memesan: <em>Mango Tea & Peach Tea</em></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Carousel Controls -->
-          <div class="carousel-nav">
-            <button id="prev-testimonial" class="carousel-arrow-btn" aria-label="Lihat ulasan sebelumnya">
-              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <polyline points="15 18 9 12 15 6"></polyline>
-              </svg>
-            </button>
-            <div id="carousel-dots" class="carousel-dots" aria-label="Pilih nomor slide ulasan">
-              <!-- Indicators generated by script.js -->
-            </div>
-            <button id="next-testimonial" class="carousel-arrow-btn" aria-label="Lihat ulasan berikutnya">
-              <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <polyline points="9 18 15 12 9 6"></polyline>
-              </svg>
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 12. GALERI DENGAN LIGHTBOX -->
-    <section id="galeri" class="section gallery-section">
-      <div class="container">
-        <div class="section-header text-center">
-          <span class="section-kicker">Momen & Produk</span>
-          <h2 class="section-title">Galeri EXO Tea</h2>
-          <p class="section-subtitle">
-            Keseruan meracik teh segar, keaslian bahan baku, dan kehangatan suasana gerai kami.
-          </p>
-        </div>
-
-        <div class="gallery-grid">
-          <div class="gallery-item" data-caption="Koleksi minuman signature segar EXO Tea dengan es batu melimpah" tabindex="0" role="button" aria-label="Perbesar foto minuman signature">
-            <img src="./assets/images/hero_tea_showcase_1791182129153.jpg" alt="Minuman signature segar EXO Tea" loading="lazy" class="gallery-thumb" width="400" height="300">
-            <div class="gallery-overlay">
-              <span class="gallery-zoom-icon">🔍</span>
-              <span class="gallery-title">Signature Tea Blend</span>
-            </div>
-          </div>
-
-          <div class="gallery-item" data-caption="Racikan buah lemon dan leci segar dalam Fruit Tea Series" tabindex="0" role="button" aria-label="Perbesar foto Fruit Tea Series">
-            <img src="./assets/images/fruit_tea_lemon_lychee_1791182142092.jpg" alt="Racikan Fruit Tea Series lemon dan lychee" loading="lazy" class="gallery-thumb" width="400" height="300">
-            <div class="gallery-overlay">
-              <span class="gallery-zoom-icon">🔍</span>
-              <span class="gallery-title">Fruit Tea Series</span>
-            </div>
-          </div>
-
-          <div class="gallery-item" data-caption="Milk Tea dengan lelehan gula aren murni khas Indonesia" tabindex="0" role="button" aria-label="Perbesar foto Milk Tea Gula Aren">
-            <img src="./assets/images/milk_tea_gula_aren_1791182158332.jpg" alt="Milk Tea Gula Aren dengan lelehan sirup alami" loading="lazy" class="gallery-thumb" width="400" height="300">
-            <div class="gallery-overlay">
-              <span class="gallery-zoom-icon">🔍</span>
-              <span class="gallery-title">Milk Tea Gula Aren</span>
-            </div>
-          </div>
-
-          <div class="gallery-item" data-caption="Varian rasa buah tropis segar Peach & Mango Tea" tabindex="0" role="button" aria-label="Perbesar foto Peach & Mango Tea">
-            <img src="./assets/images/peach_mango_tea_1791182172146.jpg" alt="Peach & Mango Tea dengan kesegaran buah asli" loading="lazy" class="gallery-thumb" width="400" height="300">
-            <div class="gallery-overlay">
-              <span class="gallery-zoom-icon">🔍</span>
-              <span class="gallery-title">Peach & Mango Blend</span>
-            </div>
-          </div>
-
-          <div class="gallery-item" data-caption="Proses seduh daun teh melati asli berkualitas tinggi" tabindex="0" role="button" aria-label="Perbesar foto Proses Seduh Teh Asli">
-            <img src="./assets/images/tea_brewing_leaves_1791182189628.jpg" alt="Proses seduh daun teh melati asli pilihan" loading="lazy" class="gallery-thumb" width="400" height="300">
-            <div class="gallery-overlay">
-              <span class="gallery-zoom-icon">🔍</span>
-              <span class="gallery-title">Proses Seduh Tradisional</span>
-            </div>
-          </div>
-
-          <div class="gallery-item" data-caption="Kesegaran setiap gelas EXO Tea siap menemani harimu" tabindex="0" role="button" aria-label="Perbesar foto Kemasan EXO Tea">
-            <img src="./assets/images/hero_tea_showcase_1791182129153.jpg" alt="Kemasan siap saji cup EXO Tea dingin" loading="lazy" class="gallery-thumb" width="400" height="300">
-            <div class="gallery-overlay">
-              <span class="gallery-zoom-icon">🔍</span>
-              <span class="gallery-title">Kemasan Cup Higienis</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- LIGHTBOX MODAL -->
-    <div id="lightbox-modal" class="lightbox-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Pratinjau Foto Galeri">
-      <div class="lightbox-content">
-        <button id="lightbox-close" class="lightbox-close" aria-label="Tutup lightbox">✕</button>
-        <button id="lightbox-prev" class="lightbox-arrow prev" aria-label="Foto sebelumnya">❮</button>
-        <img id="lightbox-img" src="" alt="Pratinjau foto galeri diperbesar">
-        <button id="lightbox-next" class="lightbox-arrow next" aria-label="Foto berikutnya">❯</button>
-        <p id="lightbox-caption" class="lightbox-caption"></p>
-      </div>
-    </div>
-
-    <!-- 13. AJAKAN MEMBELI (CTA BANNER) -->
-    <section class="cta-banner-section">
-      <div class="container cta-banner-container">
-        <div class="cta-banner-content">
-          <h2 class="cta-title">Siap Menemukan Rasa Favoritmu?</h2>
-          <p class="cta-desc">
-            Pesan EXO Tea sekarang dan nikmati kesegaran istimewa yang dibuat khusus untukmu. Cepat, praktis, dan ramah di kantong!
-          </p>
-          <div class="cta-buttons">
-            <a href="https://wa.me/6281234567890?text=Halo%20EXO%20Tea%2C%20saya%20ingin%20memesan%20sekarang." target="_blank" rel="noopener noreferrer" class="btn btn-accent btn-lg">
-              <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor" aria-hidden="true">
-                <path d="M12 2C6.48 2 2 6.48 2 12c0 1.95.56 3.77 1.53 5.31L2 22l4.82-1.51C8.31 21.46 10.1 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18.2c-1.64 0-3.17-.46-4.48-1.27l-.32-.2-2.86.9.91-2.78-.21-.34C4.16 15.19 3.7 13.65 3.7 12c0-4.58 3.72-8.3 8.3-8.3s8.3 3.72 8.3 8.3-3.72 8.3-8.3 8.3z"/>
-              </svg>
-              <span>Pesan via WhatsApp</span>
-            </a>
-            <a href="#kontak" class="btn btn-outline-white btn-lg">
-              <span>Lihat Lokasi & Jam Buka</span>
-            </a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- 14. LOKASI DAN KONTAK -->
-    <section id="kontak" class="section contact-section">
-      <div class="container">
-        <div class="section-header text-center">
-          <span class="section-kicker">Hubungi & Kunjungi</span>
-          <h2 class="section-title">Lokasi dan Kontak</h2>
-          <p class="section-subtitle">
-            Kunjungi gerai kami atau hubungi barista kami untuk pertanyaan pesanan rombongan, katering, dan kemitraan.
-          </p>
-        </div>
-
-        <div class="contact-grid">
-          <!-- Column 1: Info & Map -->
-          <div class="contact-info-col">
-            <div class="info-card">
-              <h3 class="info-card-title">Gerai Utama EXO Tea</h3>
-              
-              <ul class="contact-details-list">
-                <li class="contact-detail-item">
-                  <div class="contact-icon">📍</div>
-                  <div>
-                    <strong>Alamat Gerai</strong>
-                    <p>Jl. Contoh UMKM No. 25, Kawasan Kuliner Nusantara, Indonesia</p>
-                  </div>
-                </li>
-
-                <li class="contact-detail-item">
-                  <div class="contact-icon">🕒</div>
-                  <div>
-                    <strong>Jam Operasional</strong>
-                    <p>Senin – Minggu: 10.00 – 21.00 WIB</p>
-                  </div>
-                </li>
-
-                <li class="contact-detail-item">
-                  <div class="contact-icon">💬</div>
-                  <div>
-                    <strong>WhatsApp Pesanan</strong>
-                    <p><a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer">+62 812-3456-7890</a></p>
-                  </div>
-                </li>
-
-                <li class="contact-detail-item">
-                  <div class="contact-icon">🛵</div>
-                  <div>
-                    <strong>Area Pengantaran</strong>
-                    <p>Mendukung pengiriman langsung radius 5 km & GoSend/GrabExpress</p>
-                  </div>
-                </li>
-              </ul>
-
-              <div class="social-links-box">
-                <span class="social-title">Ikuti Media Sosial Kami:</span>
-                <div class="social-buttons-wrap">
-                  <a href="https://instagram.com/exotea.id" target="_blank" rel="noopener noreferrer" class="social-btn">
-                    <span>Instagram</span>
-                    <span class="social-handle">@exotea.id</span>
-                  </a>
-                  <a href="https://tiktok.com/@exotea.id" target="_blank" rel="noopener noreferrer" class="social-btn">
-                    <span>TikTok</span>
-                    <span class="social-handle">@exotea.id</span>
-                  </a>
-                </div>
-              </div>
-
-              <div class="map-action-box">
-                <a href="https://maps.google.com/?q=Jakarta" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-full">
-                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <polygon points="1 6 1 22 8 18 16 22 23 18 23 2 16 6 8 2 1 6"></polygon>
-                    <line x1="8" y1="2" x2="8" y2="18"></line>
-                    <line x1="16" y1="6" x2="16" y2="22"></line>
-                  </svg>
-                  <span>Buka di Google Maps</span>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <!-- Column 2: Form with Client Validation -->
-          <div class="contact-form-col">
-            <div class="form-card">
-              <h3 class="form-card-title">Kirim Pesan atau Pertanyaan</h3>
-              <p class="form-card-desc">Punya pertanyaan seputar katering acara, kemitraan UMKM, atau kritik saran? Hubungi kami langsung.</p>
-
-              <form id="contact-form" novalidate>
-                <div class="form-group">
-                  <label for="contact-name" class="form-label">Nama Lengkap <span class="required">*</span></label>
-                  <input type="text" id="contact-name" name="name" class="form-control" placeholder="Contoh: Rahmat Hidayat" required>
-                  <span class="form-error" id="name-error" aria-live="polite"></span>
-                </div>
-
-                <div class="form-group">
-                  <label for="contact-phone" class="form-label">Nomor WhatsApp Aktif <span class="required">*</span></label>
-                  <input type="tel" id="contact-phone" name="phone" class="form-control" placeholder="Contoh: 081234567890" required>
-                  <span class="form-error" id="phone-error" aria-live="polite"></span>
-                </div>
-
-                <div class="form-group">
-                  <label for="contact-topic" class="form-label">Pilihan Topik <span class="required">*</span></label>
-                  <select id="contact-topic" name="topic" class="form-control" required>
-                    <option value="" disabled selected>Pilih topik kebutuhanmu...</option>
-                    <option value="Pemesanan Acara / Rombongan">Pemesanan Acara / Rombongan</option>
-                    <option value="Pertanyaan Menu & Produk">Pertanyaan Menu & Produk</option>
-                    <option value="Peluang Kemitraan UMKM">Peluang Kemitraan UMKM</option>
-                    <option value="Kritik & Saran Layanan">Kritik & Saran Layanan</option>
-                  </select>
-                  <span class="form-error" id="topic-error" aria-live="polite"></span>
-                </div>
-
-                <div class="form-group">
-                  <label for="contact-message" class="form-label">Pesan <span class="required">*</span></label>
-                  <textarea id="contact-message" name="message" class="form-control" rows="4" placeholder="Tuliskan detail pertanyaan atau kebutuhanmu di sini..." required></textarea>
-                  <span class="form-error" id="message-error" aria-live="polite"></span>
-                </div>
-
-                <div id="form-success-banner" class="form-success-alert" style="display: none;" role="alert">
-                  ✓ Pesan valid! Mengarahkan ke WhatsApp untuk mengirimkan pesan ke barista...
-                </div>
-
-                <button type="submit" id="contact-submit-btn" class="btn btn-primary btn-full">
-                  <span>Kirim Pesan via WhatsApp</span>
-                  <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                    <line x1="22" y1="2" x2="11" y2="13"></line>
-                    <polygon points="22 2 15 22 11 13 2 9 22 2"></polygon>
-                  </svg>
+            <article class="menu-list-card reveal">
+              <p class="eyebrow light">Rasa lainnya</p>
+              <h3>Pilih sesuai<br />mood kamu.</h3>
+              <div class="menu-list">
+                <button type="button" data-order="Original Tea" data-price="8000">
+                  <span><b>Original Tea</b><small>Clean &amp; klasik</small></span>
+                  <strong>8K</strong>
                 </button>
-              </form>
+                <button type="button" data-order="Mango Tea" data-price="11000">
+                  <span><b>Mango Tea</b><small>Tropis &amp; juicy</small></span>
+                  <strong>11K</strong>
+                </button>
+                <button type="button" data-order="Peach Tea" data-price="11000">
+                  <span><b>Peach Tea</b><small>Manis &amp; wangi</small></span>
+                  <strong>11K</strong>
+                </button>
+                <button type="button" data-order="Thai Tea Creamy" data-price="13000">
+                  <span><b>Thai Tea Creamy</b><small>Bold &amp; lembut</small></span>
+                  <strong>13K</strong>
+                </button>
+              </div>
+              <a class="light-link" href="#pesan">Atur pesananmu <span>→</span></a>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section story-section" id="cerita">
+        <div class="container story-grid">
+          <div class="story-number reveal" aria-hidden="true">01</div>
+          <div class="story-copy reveal">
+            <p class="eyebrow">Cerita kami</p>
+            <h2>Dibuat segar.<br />Dinikmati <em>tanpa ribet.</em></h2>
+            <p>
+              EXO Tea lahir dari ide sederhana: minuman enak tidak harus mahal.
+              Kami meracik teh lokal dengan rasa modern, bahan pilihan, dan
+              pelayanan yang dekat dengan pelanggan.
+            </p>
+          </div>
+          <div class="values reveal">
+            <div><span>01</span><h3>Bahan pilihan</h3><p>Rasa bersih dan konsisten di setiap gelas.</p></div>
+            <div><span>02</span><h3>Diracik saat dipesan</h3><p>Lebih segar, sesuai tingkat gula dan es pilihanmu.</p></div>
+            <div><span>03</span><h3>Harga bersahabat</h3><p>Minuman berkualitas untuk dinikmati lebih sering.</p></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section promo-section">
+        <div class="container">
+          <div class="promo reveal">
+            <div>
+              <p class="eyebrow light">Promo rame-rame</p>
+              <h2>Beli 2,<br /><em>gratis 1.</em></h2>
+              <p>
+                Ajak temanmu menikmati varian pilihan EXO Tea. Tanyakan
+                ketersediaan promo hari ini melalui WhatsApp.
+              </p>
+              <a
+                class="button button-cream"
+                href="https://wa.me/6281234567890?text=Halo%20EXO%20Tea%2C%20apakah%20promo%20Beli%202%20Gratis%201%20masih%20tersedia%3F"
+                target="_blank"
+                rel="noopener"
+                >Ambil promo <span aria-hidden="true">↗</span></a
+              >
+            </div>
+            <div class="promo-stamp" aria-label="Promo berlaku untuk varian pilihan">
+              <span>VARIAN</span><b>PILIHAN</b><small>selama tersedia</small>
             </div>
           </div>
+        </div>
+      </section>
+
+      <section class="section reviews-section" id="ulasan">
+        <div class="container">
+          <div class="section-heading compact reveal">
+            <div>
+              <p class="eyebrow">Kata mereka</p>
+              <h2>Favoritnya<br /><em>teman satu tongkrongan.</em></h2>
+            </div>
+            <p>Ulasan sederhana dari pelanggan yang sudah menemukan rasa favoritnya.</p>
+          </div>
+          <div class="review-grid">
+            <article class="review-card reveal">
+              <div class="stars" aria-label="5 dari 5 bintang">★★★★★</div>
+              <blockquote>
+                “Lemon Lychee-nya segar banget dan manisnya pas. Cocok diminum
+                siang hari.”
+              </blockquote>
+              <footer><span>NA</span><div><b>Nadia A.</b><small>Mahasiswi</small></div></footer>
+            </article>
+            <article class="review-card featured reveal">
+              <div class="stars" aria-label="5 dari 5 bintang">★★★★★</div>
+              <blockquote>
+                “Milk Tea Gula Aren jadi langganan. Creamy, tapi tidak bikin
+                enek. Harganya juga masuk akal.”
+              </blockquote>
+              <footer><span>RF</span><div><b>Raka F.</b><small>Pelanggan rutin</small></div></footer>
+            </article>
+            <article class="review-card reveal">
+              <div class="stars" aria-label="5 dari 5 bintang">★★★★★</div>
+              <blockquote>
+                “Pesan lewat WhatsApp cepat, bisa atur gula dan es. Pelayanannya
+                ramah.”
+              </blockquote>
+              <footer><span>DS</span><div><b>Dinda S.</b><small>Karyawan</small></div></footer>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="section order-section" id="pesan">
+        <div class="container order-grid">
+          <div class="order-copy reveal">
+            <p class="eyebrow">Pesan tanpa antre</p>
+            <h2>Lagi haus?<br /><em>Kita racikin.</em></h2>
+            <p>
+              Atur pesananmu, lalu kirim detailnya langsung ke WhatsApp EXO Tea.
+            </p>
+            <ol class="order-steps">
+              <li><span>1</span>Pilih rasa favorit</li>
+              <li><span>2</span>Atur gula, es, dan jumlah</li>
+              <li><span>3</span>Kirim pesanan ke WhatsApp</li>
+            </ol>
+          </div>
+
+          <form class="order-card reveal" data-order-form>
+            <div class="order-card-head">
+              <span>Pesananmu</span>
+              <small>Harga akan dihitung otomatis</small>
+            </div>
+
+            <label>
+              Pilih minuman
+              <select name="product" data-product>
+                <option value="Original Tea" data-price="8000">Original Tea — Rp8.000</option>
+                <option value="Lemon Lychee Tea" data-price="10000">Lemon Lychee Tea — Rp10.000</option>
+                <option value="Mango Tea" data-price="11000">Mango Tea — Rp11.000</option>
+                <option value="Peach Tea" data-price="11000">Peach Tea — Rp11.000</option>
+                <option value="Milk Tea Gula Aren" data-price="13000">Milk Tea Gula Aren — Rp13.000</option>
+                <option value="Thai Tea Creamy" data-price="13000">Thai Tea Creamy — Rp13.000</option>
+              </select>
+            </label>
+
+            <div class="field-row">
+              <label>
+                Tingkat gula
+                <select name="sugar">
+                  <option>Normal</option>
+                  <option>75%</option>
+                  <option>50%</option>
+                  <option>25%</option>
+                  <option>Tanpa gula</option>
+                </select>
+              </label>
+              <label>
+                Es
+                <select name="ice">
+                  <option>Normal</option>
+                  <option>Sedikit</option>
+                  <option>Tanpa es</option>
+                  <option>Extra</option>
+                </select>
+              </label>
+            </div>
+
+            <div class="quantity-row">
+              <span>Jumlah</span>
+              <div class="quantity-control">
+                <button type="button" aria-label="Kurangi jumlah" data-qty-minus>−</button>
+                <output data-quantity>1</output>
+                <button type="button" aria-label="Tambah jumlah" data-qty-plus>+</button>
+              </div>
+            </div>
+
+            <label>
+              Catatan <span class="optional">(opsional)</span>
+              <textarea name="note" rows="2" placeholder="Contoh: jangan terlalu manis"></textarea>
+            </label>
+
+            <div class="order-total">
+              <span>Total perkiraan</span>
+              <strong data-total>Rp8.000</strong>
+            </div>
+            <button class="button button-full" type="submit">
+              Kirim ke WhatsApp <span aria-hidden="true">↗</span>
+            </button>
+          </form>
+        </div>
+      </section>
+
+      <section class="section location-section" id="lokasi">
+        <div class="container location-grid">
+          <div class="location-card reveal">
+            <p class="eyebrow light">Temui kami</p>
+            <h2>Mampir dan<br /><em>segarin harimu.</em></h2>
+            <div class="location-details">
+              <div><small>Alamat</small><p>Jl. Contoh UMKM No. 25<br />Indonesia</p></div>
+              <div><small>Jam buka</small><p>Senin–Minggu<br />10.00–21.00 WIB</p></div>
+              <div><small>Kontak</small><p>+62 812 3456 7890<br />@exotea.id</p></div>
+            </div>
+            <a class="light-link" href="#" aria-label="Buka lokasi EXO Tea di Google Maps"
+              >Buka Google Maps <span>↗</span></a
+            >
+          </div>
+
+          <div class="faq reveal">
+            <p class="eyebrow">Pertanyaan umum</p>
+            <h2>Sebelum kamu pesan.</h2>
+            <div class="accordion">
+              <div class="accordion-item">
+                <button type="button" aria-expanded="false">
+                  Apakah tingkat gula dan es bisa diatur?<span>+</span>
+                </button>
+                <div class="accordion-panel">
+                  <p>Bisa. Kamu dapat memilih tingkat gula dan jumlah es saat mengatur pesanan.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button type="button" aria-expanded="false">
+                  Apakah tersedia layanan pengantaran?<span>+</span>
+                </button>
+                <div class="accordion-panel">
+                  <p>Hubungi kami melalui WhatsApp untuk mengecek jangkauan dan biaya pengantaran.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button type="button" aria-expanded="false">
+                  Bisa pesan untuk acara?<span>+</span>
+                </button>
+                <div class="accordion-panel">
+                  <p>Bisa. Kami menerima pesanan dalam jumlah banyak dengan pemesanan lebih awal.</p>
+                </div>
+              </div>
+              <div class="accordion-item">
+                <button type="button" aria-expanded="false">
+                  Bagaimana cara memesan?<span>+</span>
+                </button>
+                <div class="accordion-panel">
+                  <p>Pilih menu, atur detail pesanan, lalu kirim langsung melalui WhatsApp.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div>
+          <a class="brand brand-light" href="#beranda">
+            <span class="brand-mark" aria-hidden="true">E</span>
+            <span>EXO <b>Tea</b></span>
+          </a>
+          <p>Teh lokal dengan rasa total.<br />Diracik segar untuk setiap harimu.</p>
+        </div>
+        <div class="footer-links">
+          <div><small>Jelajahi</small><a href="#menu">Menu</a><a href="#cerita">Cerita Kami</a><a href="#ulasan">Ulasan</a></div>
+          <div><small>Terhubung</small><a href="#">Instagram</a><a href="#">TikTok</a><a href="https://wa.me/6281234567890">WhatsApp</a></div>
         </div>
       </div>
-    </section>
-
-    <!-- 15. PERTANYAAN UMUM (FAQ ACCORDION) -->
-    <section class="section faq-section">
-      <div class="container">
-        <div class="section-header text-center">
-          <span class="section-kicker">Bantuan & Informasi</span>
-          <h2 class="section-title">Pertanyaan yang Sering Diajukan</h2>
-          <p class="section-subtitle">
-            Jawaban lengkap seputar produk, pemesanan, dan layanan EXO Tea.
-          </p>
-        </div>
-
-        <div class="faq-accordion-list" id="faq-accordion">
-          <!-- FAQ 1 -->
-          <div class="faq-item">
-            <button class="faq-trigger" aria-expanded="false">
-              <span class="faq-question">Apakah tingkat kemanisan (sugar level) bisa disesuaikan?</span>
-              <span class="faq-chevron" aria-hidden="true">
-                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-              </span>
-            </button>
-            <div class="faq-panel">
-              <div class="faq-panel-inner">
-                <p>Tentu saja! Kami menyediakan 5 pilihan tingkat kemanisan: Tanpa Gula (0%), 25% (Less Sugar), 50% (Half Sugar), 75%, dan Normal (100%). Kamu bebas memilih saat memesan di website maupun di outlet.</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- FAQ 2 -->
-          <div class="faq-item">
-            <button class="faq-trigger" aria-expanded="false">
-              <span class="faq-question">Apakah EXO Tea melayani pesanan untuk acara besar atau kantor?</span>
-              <span class="faq-chevron" aria-hidden="true">
-                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-              </span>
-            </button>
-            <div class="faq-panel">
-              <div class="faq-panel-inner">
-                <p>Bisa banget! Kami sering melayani pesanan syukuran, arisan, rapat kantor, dan pesta ulang tahun mulai dari 20 cup hingga ratusan cup. Untuk pemesanan dalam jumlah banyak, silakan hubungi WhatsApp kami minimal H-1 agar kami siapkan bahan segar terbaik.</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- FAQ 3 -->
-          <div class="faq-item">
-            <button class="faq-trigger" aria-expanded="false">
-              <span class="faq-question">Bagaimana cara memesan lewat website ini?</span>
-              <span class="faq-chevron" aria-hidden="true">
-                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-              </span>
-            </button>
-            <div class="faq-panel">
-              <div class="faq-panel-inner">
-                <p>Caranya sangat praktis: pilih menu favoritmu di bagian Menu, klik tombol "Lihat Detail", atur ukuran, es, dan tingkat gula, lalu tekan tombol "Pesan via WhatsApp". Pesan akan tersusun otomatis di aplikasi WhatsApp ponselmu, tinggal tekan kirim!</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- FAQ 4 -->
-          <div class="faq-item">
-            <button class="faq-trigger" aria-expanded="false">
-              <span class="faq-question">Apakah tersedia layanan pengantaran ke rumah?</span>
-              <span class="faq-chevron" aria-hidden="true">
-                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-              </span>
-            </button>
-            <div class="faq-panel">
-              <div class="faq-panel-inner">
-                <p>Ya, untuk area sekitar gerai (radius 5 km) kami menyediakan pengiriman kurir lokal UMKM. Selain itu, kamu juga bisa memesan melalui layanan kurir instan ojek online (GrabExpress / GoSend) setelah konfirmasi pesanan via WhatsApp.</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- FAQ 5 -->
-          <div class="faq-item">
-            <button class="faq-trigger" aria-expanded="false">
-              <span class="faq-question">Berapa lama proses pembuatan minuman?</span>
-              <span class="faq-chevron" aria-hidden="true">
-                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-              </span>
-            </button>
-            <div class="faq-panel">
-              <div class="faq-panel-inner">
-                <p>Karena kami selalu meracik teh segar saat pesanan masuk, waktu penyajian rata-rata adalah 3 sampai 5 menit per pesanan reguler, menjamin kualitas rasa dan kesegaran es yang optimal.</p>
-              </div>
-            </div>
-          </div>
-
-          <!-- FAQ 6 -->
-          <div class="faq-item">
-            <button class="faq-trigger" aria-expanded="false">
-              <span class="faq-question">Apakah EXO Tea membuka peluang kemitraan atau franchise?</span>
-              <span class="faq-chevron" aria-hidden="true">
-                <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
-                  <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-              </span>
-            </button>
-            <div class="faq-panel">
-              <div class="faq-panel-inner">
-                <p>Kami sangat terbuka untuk kolaborasi dan kemitraan booth usaha mikro di lokasi strategis. Silakan pilih topik "Peluang Kemitraan UMKM" pada formulir kontak di atas atau hubungi langsung admin WhatsApp kami untuk berdiskusi.</p>
-              </div>
-            </div>
-          </div>
-        </div>
+      <div class="container footer-bottom">
+        <span>© 2026 EXO Tea</span>
+        <span>Segarnya bikin balik lagi.</span>
       </div>
-    </section>
-  </main>
+    </footer>
 
-  <!-- 16. FOOTER -->
-  <footer class="site-footer">
-    <div class="container footer-container">
-      <div class="footer-main-grid">
-        <!-- Brand Info -->
-        <div class="footer-col brand-col">
-          <div class="footer-brand">
-            <span class="brand-name">EXO <span>Tea</span></span>
-          </div>
-          <p class="footer-desc">
-            UMKM minuman teh lokal Indonesia yang menghadirkan racikan teh segar berkualitas tinggi dengan harga ramah kantong. Kesegaran alami dalam setiap tegukan.
-          </p>
-          <div class="footer-social-icons">
-            <a href="https://instagram.com/exotea.id" target="_blank" rel="noopener noreferrer" aria-label="Kunjungi Instagram EXO Tea" class="footer-social-link">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect>
-                <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path>
-                <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line>
-              </svg>
-            </a>
-            <a href="https://tiktok.com/@exotea.id" target="_blank" rel="noopener noreferrer" aria-label="Kunjungi TikTok EXO Tea" class="footer-social-link">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-                <path d="M9 12a4 4 0 1 0 4 4V4a5 5 0 0 0 5 5"></path>
-              </svg>
-            </a>
-            <a href="https://wa.me/6281234567890" target="_blank" rel="noopener noreferrer" aria-label="Hubungi WhatsApp EXO Tea" class="footer-social-link">
-              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
-                <path d="M12 2C6.48 2 2 6.48 2 12c0 1.95.56 3.77 1.53 5.31L2 22l4.82-1.51C8.31 21.46 10.1 22 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm0 18.2c-1.64 0-3.17-.46-4.48-1.27l-.32-.2-2.86.9.91-2.78-.21-.34C4.16 15.19 3.7 13.65 3.7 12c0-4.58 3.72-8.3 8.3-8.3s8.3 3.72 8.3 8.3-3.72 8.3-8.3 8.3z"/>
-              </svg>
-            </a>
-          </div>
-        </div>
-
-        <!-- Quick Links -->
-        <div class="footer-col">
-          <h4 class="footer-heading">Navigasi Cepat</h4>
-          <ul class="footer-links">
-            <li><a href="#hero">Beranda</a></li>
-            <li><a href="#tentang">Tentang EXO Tea</a></li>
-            <li><a href="#menu">Katalog Menu</a></li>
-            <li><a href="#keunggulan">Keunggulan</a></li>
-            <li><a href="#promo">Promo Terkini</a></li>
-            <li><a href="#testimoni">Ulasan Pelanggan</a></li>
-          </ul>
-        </div>
-
-        <!-- Favorite Menu -->
-        <div class="footer-col">
-          <h4 class="footer-heading">Menu Favorit</h4>
-          <ul class="footer-links">
-            <li><a href="#menu">Lemon Tea Segar</a></li>
-            <li><a href="#menu">Milk Tea Gula Aren</a></li>
-            <li><a href="#menu">Lychee Tea Tropis</a></li>
-            <li><a href="#menu">Peach Tea Aromatik</a></li>
-            <li><a href="#menu">Original Tea Melati</a></li>
-          </ul>
-        </div>
-
-        <!-- Contact & Hours -->
-        <div class="footer-col">
-          <h4 class="footer-heading">Gerai & Jam Buka</h4>
-          <p class="footer-contact-text">
-            Jl. Contoh UMKM No. 25, Indonesia<br>
-            Buka Setiap Hari: 10.00 – 21.00 WIB
-          </p>
-          <div class="footer-wa-pill">
-            <span>WhatsApp Admin:</span>
-            <strong>+62 812-3456-7890</strong>
-          </div>
-        </div>
-      </div>
-
-      <div class="footer-bottom">
-        <p class="copyright-text">
-          &copy; 2026 EXO Tea. Kesegaran Lokal untuk Semua. Seluruh hak cipta dilindungi.
-        </p>
-        <div class="footer-legal-links">
-          <a href="#hero">Kebijakan Privasi</a>
-          <span>·</span>
-          <a href="#hero">Syarat & Ketentuan</a>
-        </div>
-      </div>
-    </div>
-  </footer>
-
-  <!-- 17. FLOATING ACTIONS -->
-  <!-- Floating WhatsApp CTA -->
-  <div class="floating-whatsapp-container">
-    <a href="https://wa.me/6281234567890?text=Halo%20EXO%20Tea%2C%20saya%20ingin%20memesan%20minuman%20segar." target="_blank" rel="noopener noreferrer" class="floating-wa-btn" aria-label="Hubungi kami melalui WhatsApp">
-      <span class="floating-wa-pulse" aria-hidden="true"></span>
-      <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor" aria-hidden="true">
-        <path d="M12.04 2c-5.46 0-9.91 4.45-9.91 9.91 0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38c1.45.79 3.08 1.21 4.74 1.21 5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m.01 1.67c2.2 0 4.26.86 5.82 2.42a8.23 8.23 0 0 1 2.41 5.83c0 4.54-3.7 8.24-8.24 8.24-1.48 0-2.93-.4-4.2-1.15l-.3-.18-3.12.82.83-3.04-.2-.32a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.24 8.24-8.24m4.52 11.66c-.25-.13-1.47-.72-1.7-.81-.23-.08-.39-.13-.56.13-.17.25-.64.81-.79.97-.14.17-.29.19-.54.06-.25-.13-1.05-.39-2-1.23-.74-.66-1.24-1.47-1.38-1.72-.15-.25-.02-.38.11-.51.11-.11.25-.29.38-.43.12-.15.17-.25.25-.42.08-.17.04-.31-.02-.44-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.44.06-.67.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.57.13.17 1.75 2.67 4.24 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.68-1.18.2-.58.2-1.08.14-1.18-.06-.1-.22-.16-.47-.28z"/>
-      </svg>
-      <span class="floating-wa-tooltip">Pesan via WhatsApp</span>
+    <a
+      class="whatsapp-float"
+      href="https://wa.me/6281234567890?text=Halo%20EXO%20Tea%2C%20saya%20ingin%20memesan."
+      target="_blank"
+      rel="noopener"
+      aria-label="Pesan EXO Tea melalui WhatsApp"
+    >
+      <span>WA</span><b>Pesan</b>
     </a>
-  </div>
-
-  <!-- Back to Top Button -->
-  <button id="back-to-top" class="back-to-top-btn" aria-label="Kembali ke atas halaman">
-    <svg viewBox="0 0 24 24" width="20" height="20" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-      <polyline points="18 15 12 9 6 15"></polyline>
-    </svg>
-  </button>
-
-  <!-- Main JavaScript File -->
-  <script src="./script.js" defer></script>
-</body>
+  </body>
 </html>
